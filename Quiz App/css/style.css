@@ -1,0 +1,140 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #341f97;
+  }
+
+  .welcome{
+    width:400px;
+}
+.welcome_form input,
+.welcome_form button{
+    display:block;
+    width: 100%;
+}
+.welcome_form input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.welcome_form input:focus{
+    outline:none;
+}
+
+
+.welcome_form button{
+    padding:20px 0px;
+    
+    border:none;
+    border-radius: 100px;
+    background-color: #fff;
+  color: #341f97;
+  font-size: 22px;
+  background-color: #fff;
+  color: #341f97;
+  font-size: 22px;
+  transition: 0.4s all;
+} 
+.welcome_form button:hover{
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    transform: translateY(-5px);
+}
+
+.quiz{
+    display: grid;
+    grid-template-rows: 60px auto;
+    width:600px;
+    height:300px;
+    background-color: white;
+    border-radius: 2px;
+}
+.quiz-header{
+    display:flex;
+    justify-content: space-between;
+    
+   border-top-left-radius: 3px;
+   border-top-right-radius:3px ;
+   box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1);
+    background-color:rgb(250, 248, 248);
+    z-index: 1;
+    
+}
+.quiz-user{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    padding-left: 30px;
+  
+
+}
+.quiz-timer{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100px;
+ color:white;
+  background-color: #301b8f;
+  
+}
+.quiz-body{
+    padding:30px;
+    background-color: #dfdfdf;
+}
+.option_group
+{
+    list-style-type: none;
+    margin:30px 0;
+}
+.option{
+    background-color: white;
+    width:230px;
+    padding:12px 20px;
+    margin-bottom:20px;
+    border-radius: 100px;
+    border:1px solid transparent;
+   
+}
+.option:hover{
+    border:2px solid rgba(56, 56, 194, 0.5);
+    cursor:pointer;
+}
+.btn-next{
+   
+    background-color: #341f97;
+    color:white;
+    padding:15px 20px;
+    border-radius: 30px;
+    border:1px solid transparent;
+}
+.btn-next:hover{
+    background-color: #fff;
+    color:black;
+    cursor:pointer;
+    border:1px solid #341f97;
+}
+.active{
+    background-color: #341f97;
+    color:white;
+}
+.user_name,
+.user_point,
+.user_time{
+   
+    color:#fff;
+    margin-top:15px;
+}

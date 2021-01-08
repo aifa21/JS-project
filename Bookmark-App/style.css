@@ -1,0 +1,43 @@
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .header{
+      
+      border-bottom:1px solid rgb(190, 188, 188);
+      margin-bottom: 30px;
+      
+      
+       
+  }
+  .header,
+  .marketing{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .marketing {
+    margin: 40px 0;
+  }
+  
+  
+.bookmark{
+   
+    text-align:center;
+    width:500px;
+    height:320px;
+    margin:auto;
+    padding:50px 50px;
+    background-color: rgb(221, 218, 218);
+    
+  
+}
+.well{
+    text-align:center;
+    width:500px;
+   
+    margin:auto;
+    padding:50px 50px;
+    background-color: rgb(221, 218, 218);
+    
+}
